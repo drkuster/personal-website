@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <a *ngFor="let tab of tabs" class="nav-tab" href="#">
+            {{tab.name}}
+        </a>
+    </mat-toolbar-row>
+</mat-toolbar>
+<home-component></home-component>

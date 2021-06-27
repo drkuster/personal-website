@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+.nav-tab {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+a:hover { color: #bdc3c7; }
+
+mat-toolbar {
+    box-shadow: 0px 1px 10px 1.5px #888888;
+}
+
+.mat-toolbar.mat-primary {
+    background: #5A92BD;
+}
