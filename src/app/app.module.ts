@@ -5,15 +5,15 @@ import { AppComponent } from './app.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { HomeComponent } from './home/home.component';
-import { ContactInfoComponent } from './home/contact-info/contact-info.component';
+import { MeComponent } from './me/me.component';
+import { ContactInfoComponent } from './me/contact-info/contact-info.component';
 import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainMenuComponent,
-    HomeComponent,
+    MeComponent,
     ContactInfoComponent
   ],
   imports: [

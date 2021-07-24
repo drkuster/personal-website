@@ -1,8 +1,8 @@
 <mat-toolbar color="primary">
     <mat-toolbar-row>
-        <a *ngFor="let tab of tabs" class="nav-tab" href="#">
-            {{tab.name}}
-        </a>
+        <a class="nav-tab" routerLink="/me">M E</a>
+        <a class="nav-tab" routerLink="/experience">E X P E R I E N C E</a>
+        <a class="nav-tab" routerLink="/code">C O D E</a>
     </mat-toolbar-row>
 </mat-toolbar>
-<home-component></home-component>
+<router-outlet></router-outlet>
